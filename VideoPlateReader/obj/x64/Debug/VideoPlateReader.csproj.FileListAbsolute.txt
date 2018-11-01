@@ -1,0 +1,15 @@
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\bin\x64\Debug\VideoPlateReader.exe.config
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\bin\x64\Debug\VideoPlateReader.exe
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\bin\x64\Debug\VideoPlateReader.pdb
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\bin\x64\Debug\WPFFolderBrowser.dll
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader.csprojResolveAssemblyReference.cache
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\MainWindow.g.cs
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\App.g.cs
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader_MarkupCompile.cache
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader_MarkupCompile.lref
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\MainWindow.baml
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader.g.resources
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader.Properties.Resources.resources
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader.csproj.GenerateResource.Cache
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader.exe
+C:\Users\t4nguyen\Desktop\Repos\VideoPlateReader\VideoPlateReader\obj\x64\Debug\VideoPlateReader.pdb
