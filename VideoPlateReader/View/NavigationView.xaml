@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="VideoPlateReader.View.NavigationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VideoPlateReader.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label>Region</Label>
+            <StackPanel Orientation="Horizontal">
+            <RadioButton VerticalAlignment="Top" Name="usRegion" GroupName="regionRadioButton" IsChecked="True">US</RadioButton>
+            <RadioButton Name="euRegion" GroupName="regionRadioButton">EU</RadioButton>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Label>
+                <TextBlock Text="{Binding SelectedFolder}" TextWrapping="Wrap" />
+            </Label>
+            <Button Name="btnSelectedFolder" Command="{Binding MonitorFolder}" Content="Monitor Folder" Width="125" HorizontalAlignment="Left"/>
+            
+        </StackPanel>
+        <ScrollViewer Grid.Row="2">
+            <StackPanel >
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--<ListBox Name= "fileList" Grid.Column="0" Grid.RowSpan="2" />
+                    <ListBox Name="PlateList" Grid.Column="1"/>-->
+                    <!--<DataGrid Name="MatchedPlates" AutoGenerateColumns="True"  MouseDoubleClick="Button_PreviewClick" Grid.ColumnSpan="3">
+
+                    </DataGrid>-->
+                    <ListView ItemsSource="{Binding LogReader}" Width="180" Height="auto" IsSynchronizedWithCurrentItem="True" SelectedItem="{Binding SelectedLogReader, Mode=TwoWay}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Width="180" Header="Plates"   DisplayMemberBinding="{Binding Plate}"  />
+                                <!--<GridViewColumn Width="140" Header="Last Name"  
+         DisplayMemberBinding="{Binding LastName}" />
+                                <GridViewColumn Width="140" Header="Email Address"
+         DisplayMemberBinding="{Binding Email}" />-->
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
