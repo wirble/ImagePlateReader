@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Windows.Media.Imaging;
 using VideoPlateReader.Object;
@@ -14,7 +15,7 @@ namespace VideoPlateReader
             MatchedPlates = new List<MatchedPlateProp>();
             PlateCount = 0;
             ProcessingTimeMs = 0.0f;
-            Id = new Guid().ToString();//creates unique id for new matchedimage
+            Id = Guid.NewGuid().ToString();//creates unique id for new matchedimage
         }
         private string id;
         private BitmapImage originalImage;
